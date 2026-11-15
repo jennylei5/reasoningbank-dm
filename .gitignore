@@ -1,0 +1,36 @@
+config_files/
+results/
+results_*/
+*.pyc
+__pycache__/
+logs*/
+memories_reasoningbank/
+*.log
+gt_eval.jsonl
+results/
+
+# Local notes: publish only the concise change summary; retain upstream docs.
+/*.md
+!/README.md
+!/CONTRIBUTING.md
+!/CODE_CHANGES_VS_UPSTREAM.md
+
+# Local environment, credentials, and editor/agent state.
+.venv/
+.aws/
+.codex/
+.agents/
+.auth/
+.env
+.env.*
+!.env.example
+
+# Generated memory banks and private report material.
+memories_*/
+/report/
+*.zip
+*:Zone.Identifier
+
+/.publish/
+
+/*.pdf
